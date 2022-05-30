@@ -4,9 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Angel Gasca <cesargasca083@gmail.com1~>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "pg": "8.7.3"
+  }
 }
